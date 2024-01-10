@@ -1,0 +1,6 @@
+vpc = "vpc-0deedf9edf0f1e09e"
+#cidrblocks  = "10.1.0.0/16"
+ssh-pub = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpq+4x9EXjKu+cOKLklKdExdpTNEm/paUUe1wie0FRVJZbJ5XRepRy1yLs6tIwEHMt4BMgnwe+THRbsrZC37XqPhfbym3WzjJbCSWoJidzhgZ0b/rTE1/nIme0GQ6DqTtpgm11SzfMBB+Emjxv7fBTZ4vc344EbvY3x9eIynevt5oOdi3QhFdtZwMx+lzoOn/XGxY4vwBjtcUoJ55SPg+eUldSWHP/NYJg4YXztCSLNOBotc6JLkSn509QjmWBS7ptYnJ8CDRraVhNiMtTtvAgDYKwrVLJh+jJL4MM6pBjb3mjwdpjiaiXes1XjxsZ2fVYOEC1+4Y16SMOWa1/geL+Gqpbfk+kKFBi0sz6dnQFVONS7roYiQYIcN2pzqfxlx+0S5SbVHhfAGeorSuzQ2CKcghj8LO0gp2dpBYYENeU+9F4hjGAi/KA1qsioA4BBiI1OoeYrgYcocxOuwv8euekdCN3i1MOKxAY68HVqjnn4KeKLsOr5xSeba6SoOK3Drk= ubuntu@ip-10-1-10-250"
+ami = "ami-03f4878755434977f"
+keypair = "my-test-keypair-mumbai"
+subnet-id = "subnet-0169d6579ba4b63ad"

@@ -1,0 +1,32 @@
+---
+- name: Install Nginx server
+  hosts: webserver
+  become: true
+
+  tasks:
+  - name: Install nginx server
+    apt:
+     name: nginx
+     state: present
+
+  - name: Change nginx listen port
+    lineinfile:
+      path: /etc/nginx/nginx.conf
+      regexp: '^Listen '
+      line: 'Listen 443'
+
+  - name: Start the service
+    service:
+     name: nginx
+     state: started
+
+- name: Install mysql server
+  hosts: dbserver
+  become: true
+
+  tasks:
+  - name: Installing
+    apt:
+     name: mysql-server
+     state: present
+
