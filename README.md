@@ -109,5 +109,13 @@ ansible-playbook -i inventory playbook.yml
 
 check the installation and configuration is applied on target servers
 
+all working fine, finally terminate your test servers and other resources created from terraform to reduce cost in aws environment
+
+cd cd /home/ubuntu/aws-ansible-terraform-automation/
+
+terraform destroy
+![image](https://github.com/praveensivakumar1998/aws-ansible-terraform-automation/assets/108512714/2780b410-90ee-4dd7-89bb-ff68beb70949)
+
+
 
 
