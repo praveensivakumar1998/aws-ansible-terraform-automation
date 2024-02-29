@@ -112,25 +112,29 @@ check the console target instances will created as per terraform configuration
 check can able to connect the target servers in management server
 ![image](https://github.com/praveensivakumar1998/aws-ansible-terraform-automation/assets/108512714/17a7c5fc-158a-4648-854a-bc589a902d22)
 
+```
 cd /home/ubuntu/aws-ansible-terraform-automation/ansible
+```
 
 update the target server private ip in ansible inventory 
-
+```
 nano inventory
+```
 ![image](https://github.com/praveensivakumar1998/aws-ansible-terraform-automation/assets/108512714/39327438-1749-4823-bf8c-7b582c351df6)
 
 seperated by webservers and dbservers
-
+```
 ansible-playbook -i inventory playbook.yml
+````
 ![image](https://github.com/praveensivakumar1998/aws-ansible-terraform-automation/assets/108512714/087c9b73-8fb1-421f-9180-284b3d44380e)
 
 check the installation and configuration is applied on target servers
 
 all working fine, finally terminate your test servers and other resources created from terraform to reduce cost in aws environment
-
+```
 cd cd /home/ubuntu/aws-ansible-terraform-automation/
-
 terraform destroy
+```
 ![image](https://github.com/praveensivakumar1998/aws-ansible-terraform-automation/assets/108512714/2780b410-90ee-4dd7-89bb-ff68beb70949)
 
 
